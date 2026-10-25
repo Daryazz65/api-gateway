@@ -20,7 +20,7 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "api-gateway-secret",
       "standardFlowEnabled": true,
-      "directAccessGrantsEnabled": false,
+      "directAccessGrantsEnabled": true,
       "serviceAccountsEnabled": false,
       "redirectUris": [
         "http://localhost:8080/login/oauth2/code/keycloak"
